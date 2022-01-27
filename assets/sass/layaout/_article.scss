@@ -1,0 +1,26 @@
+.article__title{
+    font-family: $ff-oldStandard, serif;
+    font-size: $fz-xxx-large;
+}
+.article__text{
+    font-family: $ff-raleway, serif;
+    font-style: regular;
+    font-size: $fz-x-large;
+}
+
+.article-content{
+    margin-left: 10%;
+    width: 75%;
+}
+
+.article__text2{
+    display: none;
+}
+.article__button{
+    background-color: $fc-white;
+    padding: 10px 20px;
+    font-family: $ff-raleway, serif;
+    font-size: $fz-large;
+    font-style: bold;
+
+}

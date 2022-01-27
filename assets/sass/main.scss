@@ -1,3 +1,28 @@
-.container{
-    height: 100%;
+@import "base/reset";
+@import "abstracts/variables";
+@import "layaout/grid";
+@import "layaout/nav";
+@import "layaout/footer";
+@import "layaout/article";
+
+.container {
+  height: 100%;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 40px 100%;
+
+  justify-content: space-between;
+}
+.bordes {
+  border: 1px solid #000;
+  text-align: left;
+}
+.itemone {
+  justify-self: center;
+  align-self: end;
+}
+
+
