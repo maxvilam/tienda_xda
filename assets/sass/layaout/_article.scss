@@ -16,11 +16,14 @@
 .article__text2{
     display: none;
 }
-.article__button{
+.space__button{
     background-color: $fc-white;
     padding: 10px 20px;
     font-family: $ff-raleway, serif;
     font-size: $fz-large;
     font-style: bold;
 
+}
+.space{
+    padding: 20px 0;
 }
