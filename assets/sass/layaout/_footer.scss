@@ -1,4 +1,29 @@
 .footerpage__email{
+    font-family: $ff-oldStandard, serif;
     background-color: $fc-smokyblack;
     color: $fc-white;
+    width: 95%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 150px 20px 40px;
+}
+.footerpage{
+    display: flex;
+}
+.footerpage__suscribir{
+    font-family: $ff-oldStandard, serif;
+    font-style: regular;
+    font-size: $fz-large;
+    text-align: center;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+.footerpage__input{
+    font-family: $ff-raleway, serif;
+    font-style: regular;
+    font-size: $fz-x-large;
+    line-height: 2;
 }
