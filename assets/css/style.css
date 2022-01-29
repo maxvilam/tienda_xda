@@ -127,8 +127,36 @@ ul {
 }
 
 .footerpage__email {
+  font-family: "Old Standard TT", serif;
   background-color: #0c0910;
   color: #fff;
+  width: 95%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 150px 20px 40px;
+}
+
+.footerpage {
+  display: flex;
+}
+
+.footerpage__suscribir {
+  font-family: "Old Standard TT", serif;
+  font-style: regular;
+  font-size: 18px;
+  text-align: center;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
+
+.footerpage__input {
+  font-family: "Raleway", serif;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 2;
 }
 
 .article__title {
