@@ -113,6 +113,9 @@ ul {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  font-family: "Old Standard TT", serif;
+  font-style: regular;
+  font-size: 30px;
 }
 @media (min-width: 768px) {
   .logo-xda {

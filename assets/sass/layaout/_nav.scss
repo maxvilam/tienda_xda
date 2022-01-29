@@ -93,6 +93,9 @@ ul{
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  font-family: $ff-oldStandard, serif;
+  font-style: regular;
+  font-size: $fz-xx-large;
   @media (min-width: 768px) {
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
