@@ -15,6 +15,9 @@
 
 .article__text2{
     display: none;
+    @media (min-width: $tablet) {
+        display: block;
+    }
 }
 .space__button{
     background-color: $fc-white;

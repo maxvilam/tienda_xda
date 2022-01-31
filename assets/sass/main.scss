@@ -5,6 +5,9 @@
 @import "layaout/footer";
 @import "layaout/article";
 @import "layaout/image";
+@import "layaout/main";
+
+
 
 .container {
   height: 100%;
@@ -14,7 +17,6 @@
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 40px 100%;
-
   justify-content: space-between;
 }
 .bordes {
@@ -25,5 +27,3 @@
   justify-self: center;
   align-self: end;
 }
-
-

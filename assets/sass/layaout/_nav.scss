@@ -12,19 +12,18 @@ body {
   background: $fc-white;
   font-variant: small-caps;
   text-shadow: 1px 1px black;
-  @media (min-width: 768px){
+  @media (min-width: $tablet){
     border-bottom: 0;
     text-shadow: 0 0;
   }
 }
 
 li{
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     display:inline-block;
-    float: right;
   }
-
 }
+
 ul{
   width: 500px;
 }
@@ -32,7 +31,7 @@ ul{
 .respmenu {
   color: $fc-smokyblack;
   position: relative;
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     display: flex;
     justify-content:space-between
   }
@@ -51,7 +50,7 @@ ul{
   top: 0;
   width: 48px;
   height: 48px;
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     display: none;
   }
 }
@@ -69,7 +68,7 @@ ul{
 
 .respmenu nav {
   display: none;
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     display: contents;
   }
 }
@@ -97,13 +96,16 @@ ul{
   font-family: $ff-oldStandard, serif;
   font-style: regular;
   font-size: $fz-xx-large;
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     width: 80px;
-    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
   }
 }

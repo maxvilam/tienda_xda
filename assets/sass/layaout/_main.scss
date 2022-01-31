@@ -1,0 +1,12 @@
+.main {
+    @media (min-width: $desktop) {
+      display: flex;
+      flex-flow: row;
+      .column2 {
+          width: 38%;
+        order: -1;
+      }
+      .main__image {
+      }
+    }
+  }
